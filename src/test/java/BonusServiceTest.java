@@ -1,8 +1,10 @@
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BonusServiceTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calculate() {
         BonusService service = new BonusService(); /* создали объект на базе class BonusService */
 
